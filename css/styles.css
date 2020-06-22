@@ -83,10 +83,18 @@ section {
   padding: 1em;
   font-weight: bold;
   text-decoration: none;
+}
+.menu__link {
   color: #000;
 }
 
-.navbar__menu .menu__link:hover {
+.active-link {
+  background: #333;
+  color: #fff;
+  transition: ease 0.3s all;
+}
+.active-link,
+.menu__link:hover {
   background: #333;
   color: #fff;
   transition: ease 0.3s all;
@@ -99,6 +107,20 @@ section {
   top: 0;
   width: 100%;
   z-index: 5;
+}
+#flyUp {
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  font-size: larger;
+  border: 2px solid goldenrod;
+}
+#flyUp:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 /* Footer Styles */
